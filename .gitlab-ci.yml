@@ -55,5 +55,5 @@ pages:
       - echo Pages deploy done
     artifacts:
         paths:
-            - public
+            - public/code-coverage-reports
         expire_in: 30 days
