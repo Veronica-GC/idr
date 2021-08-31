@@ -52,7 +52,9 @@ pages:
     dependencies:
       - test:all-tests
     script:
-      - echo Pages deploy done
+      - mkdir .public
+      - cp -r * .public
+      - mv .public public
     artifacts:
         paths:
             - public
