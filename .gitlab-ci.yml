@@ -50,11 +50,9 @@ test:all-tests:
 pages:
     stage: deploy
     dependencies:
-      - test:all-tests
+      - test:all-tests 
     script:
-      - mkdir .public
-      - cp -r * .public
-      - mv .public public
+      - echo Pages deploy done
     artifacts:
         paths:
             - public
