@@ -1,1 +1,1 @@
-[![coverage report](https://gitlab.com/campos.veronica.vgc/idr/badges/master/coverage.svg)](https://campos.veronica.vgc.gitlab.io/idr/code-coverage-reports)
+[![coverage report](https://gitlab.com/vgCampos/idr/badges/master/coverage.svg)](https://vgCampos.gitlab.io/idr/code-coverage-reports)
